@@ -8,6 +8,9 @@ from omegaconf import OmegaConf
 from torch.utils.data import random_split, DataLoader, Dataset
 import pytorch_lightning as pl
 from taming.data.utils import custom_collate
+import warnings
+
+warnings.filterwarnings("ignore")
 
 def load_config_from_yaml(yaml_path):
     with open(yaml_path, 'r') as f:
