@@ -4,7 +4,7 @@ vqgan/data/smiles
 vqgan/lightning_logs
 vqgan/data/*
 !vqgan/data/*.py
-vqgan/training_losses.png
+vqgan/training_losses_*.png
 
 ### Python template
 # Byte-compiled / optimized / DLL files
