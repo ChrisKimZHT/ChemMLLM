@@ -28,7 +28,7 @@ def visualize_one(log_dir: str) -> None:
     plt.ylabel("Loss")
     plt.title("Training Losses Over Steps")
     plt.legend()
-    plt.grid()
+    plt.grid(which="both", axis="both")
     plt.savefig(f"training_losses_{version}.png")
 
 
